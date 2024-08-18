@@ -1,0 +1,18 @@
+{
+  "name": "jservice",
+  "version": "1.0.0",
+  "description": "a sample node project",
+  "main": "index.js",
+  "scripts": {
+    "static": "serve -p 5050 static",
+    "server": "node server.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stev",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.28.1",
+    "fastify-cli": "^6.3.0",
+    "serve": "^14.2.3"
+  }
+}
